@@ -1,0 +1,69 @@
+<!-- 第二部分数据 -->
+<script type="text/html" id="stuListTem">
+<div class="title" id="toubu">
+	<%for(var n in data.act_info[1].act_rows){%>
+		<dl>
+			<dt><img data-original="<%=data.act_info[1].act_rows[n].activity.img%>" class="lazyAll"/></dt>
+			<dd><%=data.act_info[1].act_rows[n].activity.name%></dd>
+		</dl>
+	<%}%>
+</div>
+<div class="gduan"></div>
+<div class="main_three">
+	<%for(var n=0; n< data.act_info[3].act_rows.length-1;n++){%>
+		<span>
+			<img data-original="<%=data.act_info[3].act_rows[n].activity.img%>" class="lazyAll"/>
+		</span>
+	<%}%>
+</div>
+<div class="gduan"></div>
+	<div class="main_four">
+	<img data-original="<%=data.act_info[4].act_rows[0].act_rows[0].chead_detail.img%>"class="lazyAll"/>
+	</div>
+<div class="main_five">
+	<%for(var n in data.act_info[4].act_rows[1].act_rows){%>
+		<span>
+			<img data-original="<%=data.act_info[4].act_rows[1].act_rows[n].cactivity_detail.img%>"class="lazyAll"/>
+		</span>
+	<%}%>
+</div>
+<div class="title two" id="sixData">
+	<%for(var n in data.act_info[4].act_rows[2].act_rows){%>
+		<dl>
+			<dt><img data-original="<%=data.act_info[4].act_rows[2].act_rows[n].cicons_detail.img%>"class="lazyAll"/></dt>
+			<dd><%=data.act_info[4].act_rows[2].act_rows[n].cicons_detail.name%></dd>
+		</dl>
+	<%}%>
+</div>
+<div class="main_seven">
+	<div>
+		<%for(var n in data.act_info[4].act_rows[3].act_rows){%>
+			<span><img data-original="<%=data.act_info[4].act_rows[3].act_rows[n].activity.img%>"class="lazyAll"/></span>
+		<%}%>
+	</div>
+</div>
+<div class="gduan"></div>
+<div id="mian_eight">
+	<%for(var n in data.act_info[5].act_rows){%>
+		<div class="main_eight_one">
+			<span><a></a><%=data.act_info[5].act_rows[n].category_detail.name%></span>
+			<span>更多&nbsp;&nbsp;&nbsp;</span>
+		</div>
+		<div class="main_eight_two">
+			<span><img data-original="<%=data.act_info[5].act_rows[n].activity.img%>"class="lazyAll"/></span>
+		</div>
+		<div class="main_eight_three">
+			<%for(var i in data.act_info[5].act_rows[n].category_detail.goods){%>
+				<div class="main_out1">
+					<span class="main_in1"><img data-original="<%=data.act_info[5].act_rows[n].category_detail.goods[i].img%>"class="lazyAll"/></span>
+					<span class="main_in2"><%=data.act_info[5].act_rows[n].category_detail.goods[i].name%></span>
+					<span class="main_in3"><a>精选</a></span>
+
+					<span class="main_in4"><a><%=data.act_info[5].act_rows[n].category_detail.goods[i].specifics%></a><br/><a><%=data.act_info[5].act_rows[n].category_detail.goods[i].market_price%>&nbsp;&nbsp;&nbsp;&nbsp;<i><%=data.act_info[5].act_rows[n].category_detail.goods[i].partner_price%></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+					<b class="addcar1 addAll"></b>
+				</div>
+			<%}%>
+		</div>
+	<%}%>
+</div>
+</script>

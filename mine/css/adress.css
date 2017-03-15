@@ -1,0 +1,116 @@
+@charset"utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 0.12rem;
+	color: #666;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+body{
+	background: #efefef;
+}
+.hand{
+	height: .60rem;
+	width: 100%;
+	line-height: .60rem;
+	font-size: .16rem;
+	background-color: #f9fafd;
+}
+.hand a:first-of-type{
+	height: .60rem;
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../imgs/right.png) no-repeat center;
+	background-size: 55% 60%;
+}
+.hand a:last-of-type{
+	height: .6rem;
+	width: 80%;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #111;
+	font-size: .16rem;
+	text-indent: 20%;
+}
+.adre{
+	margin-top: 2px;
+	height: .57rem;
+	width: 100%;
+	text-align: center;
+	line-height: .57rem;
+	background-color: #fff;
+}
+.adre span{
+	display: inline-block;
+	height: 40%;
+	width: 5%;
+	background: url(../imgs/ad.png) no-repeat center center;
+	vertical-align: middle;
+	background-size: 100% 100%;
+}
+.adre a{
+	font-size: .16rem;
+}
+.adreAll{
+	height: 1.03rem;
+	width: 100%;
+	background: #fff;
+	margin-top: 20px;
+}
+.adreAll .adreAll_one{
+	width: 74%;
+	height: 0.9rem;
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 4px solid #ffd600;
+	line-height: .39rem;
+	padding-left: .1rem;
+}
+.adreAll .adreAll_one span{
+	font-size: .18rem;
+
+}
+.adreAll .adreAll_one a{
+	font-size: .18rem;
+	color: #999;
+}
+.adreAll .adreAll_two{
+	width: 20%;
+	height: 1.03rem;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../imgs/wright.png) no-repeat center;
+
+}
+.foot{
+	height: .6rem;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.foot div{
+	margin-top: .08rem;
+	margin-left: 25.7%;
+	text-align: center;
+	font-size: .18rem;
+	height: .4rem;
+	width: 45%;
+	line-height: .4rem;
+	background-color: #ffd600;
+	border-radius: 5%;
+}

@@ -1,0 +1,257 @@
+@charset"utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 0.12rem;
+	color: #666;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+/*二部分*/
+.title{
+	margin-top: 0.58rem;
+	width: 100%;
+	background-color: #fff;
+	float: left;
+	height: 1.14rem;
+}
+.title dl{
+	float: left;
+	height: 0.9rem;
+	width: 25%;
+	text-align: center;
+
+}
+.title dl dt{
+	height: 0.66rem;
+	width: 100%;
+	float: left;
+	margin-top: 0.1rem;
+
+}
+.title dl dt img{
+	height: 100%;
+	width: 100%;
+}
+.title dl dd{
+	color: #888;
+	font-size: 0.12rem;
+	margin-top: 0.05rem;
+	height:.12rem;
+	width: 100%;
+	float:left;
+	text-align: center;
+	font-size: .16rem;
+}
+/*分隔*/
+.gduan{
+	height: 0.1rem;
+	width: 100%;
+	background-color: #efefef;
+	float: left;
+}
+/*第三部分*/
+.main_three{
+	width: 100%;
+	float: left;
+}
+.main_three span{
+	height: 1.80rem;
+	width: 33.3%;
+	float: left;
+}
+.main_three span img{
+	height: 100%;
+	width: 100%;
+}
+.main_four{
+	height: .62rem;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+}
+.main_four img{
+	height: 100%;
+	width: 100%;
+}
+.main_five{
+	width: 100%;
+	float: left;
+}
+.main_five>span{
+	height: .75rem;
+	width: 45%;
+	margin-left: .13rem;
+	float: left;
+}
+.main_five>span img{
+	height: 100%;
+	width: 100%;
+}
+/*第六部分*/
+.two{
+	margin-top: 0rem;
+}
+.two dl dt img{
+	height: 100%;
+	width: 100%;
+}
+/*第七部分*/
+.main_seven{
+	width: 100%;
+	float: left;
+}
+.main_seven div{
+	width: 100%;
+	float: left;
+}
+.main_seven div span{
+	float: left;
+	width: 49%;
+	height: .84rem;
+	border: 1px solid #efefef;
+}
+.main_seven div span img{
+	height: 100%;
+	width: 100%;
+}
+
+/*第八部分*/
+.main_eight_one{
+	width: 100%;
+	float: left;
+}
+.main_eight_one span:first-of-type{
+	width: 80%;
+	height: .52rem;
+	float: left;
+	line-height: .52rem;
+	font-size: .2rem;
+	font-weight: bold;
+}
+.main_eight_one span:first-of-type a{
+	float: left;
+	height: 18px;
+	width: 15px;
+	background-color: #f38631;
+	margin-top: .17rem;
+	margin-left: .12rem;
+	margin-right: .10rem;
+}
+.main_eight_one span:last-of-type{
+	width: 20%;
+	height: .52rem;
+	float: left;
+	line-height: .52rem;
+	font-size: .16rem;
+	background: url(imgs/left.png) no-repeat .45rem .15rem;
+}
+.main_eight_two{
+	width: 100%;
+	height: .99rem;
+	float: left;
+	margin-bottom: .1rem;
+}
+.main_eight_two span{
+	height: .99rem;
+	width: 95%;
+	margin-left: .1rem;
+	float: left;
+	/*background: url(../imgs/eight2.jpg) no-repeat;*/
+	background-size: 100% 100%;
+}
+.main_eight_two span img{
+	height: 100%;
+	width: 100%;
+}
+.main_eight_three{
+	width: 100%;
+	float: left;
+}
+.main_eight_three div{
+	height: 2.37rem;
+	width: 33%;
+	float: left;
+	border-left: 1px solid #efefef;
+}
+.main_eight_three div:first-of-type{
+	border: none;
+}
+.main_eight_three .main_out1 .main_in1{
+	float: left;
+	height: 1.24rem;
+	width: 100%;
+	/*background: url(../imgs/shui1.jpg) no-repeat;*/
+	background-size: 100% 100%;
+}
+.main_eight_three .main_out1 .main_in1 img{
+	height: 100%;
+	width: 100%;
+}
+
+.main_eight_three .main_out1 .main_in2{
+	height: .25rem;
+	width: 100%;
+	font-size: .14rem;
+	font-weight: bold;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	text-indent: 0.05rem;
+	color: #232b33;
+}
+.main_eight_three .main_out1 .main_in3{
+	height: .25rem;
+	width:100%;
+	float: left;
+	font-size: .12rem;
+
+}
+.main_eight_three .main_out1 .main_in3 a{
+	float: left;
+	height: .15rem;
+	border: 1px solid #ff0000;
+	width: .35rem;
+	text-align: center;
+	line-height: .15rem;
+	border-radius: 20%;
+	color: #ff0000;
+}
+
+
+.main_eight_three .main_out1 .main_in4 a{
+	font-size: 12px;
+	line-height: 0.23rem;
+}
+.main_eight_three .main_out1 .main_in4 a:last-of-type{
+	color: #ff0000;
+}
+.main_eight_three .main_out1 .main_in4 a:last-of-type i{
+	font-weight: normal;
+	text-decoration: line-through;
+	font-style: normal;
+	color: #232b33;
+}
+.main_eight_three b{
+	height: .3rem;
+	width: .3rem;
+	position: absolute;
+	float: left;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	background: url(imgs/jia.png) no-repeat 7px 7px;
+	background-size: 50% 50%;
+}

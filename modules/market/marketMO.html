@@ -1,0 +1,40 @@
+<!-- 菜单 -->
+<script type="text/html" id="stuList">
+<div class="main">
+	<div class="main_one">
+		<ul>
+		<%for(var i in  data.categories){%>
+			<li num="<%=i%>">
+			<span class="classNa"></span><%=data.categories[i].name%>
+			</li>
+		<%}%>
+		</ul>
+	</div>
+	<div class="main_two">
+		<div>
+			<span>全部分类</span>
+			<span>综合排序</span>
+		</div>
+		<%for(var j in data.products){%>
+		<ol id="merList<%=j%>">
+		<%for(var n in data.products[j].pro){%>
+			<li>
+				<dl>
+					<dt><img data-original="<%=data.products[j].pro[n].img%>"class="lazyAll"/></dt>
+					<dd>
+						<span><%=data.products[j].pro[n].name%></span><br/>
+						<span>精选</span><br/>
+						<span><%=data.products[j].pro[n].specifics%></span><br/>
+						<span>￥<%=data.products[j].pro[n].market_price%></span>
+						<span></span>
+						<span>2</span>
+						<span class="addcar addAll"></span>
+					</dd>
+				</dl>
+			</li>
+		<%}%>
+		</ol>
+		<%}%>
+	</div>
+</div>
+</script>
